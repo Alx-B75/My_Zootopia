@@ -22,12 +22,11 @@ def get_animal_data(animal_data):
         
         output += f"""
         <li class="cards__item">
-            <div class="card__title">Name: {animal_name}</div>
-            <div class="card__text">Diet: {animal_diet}</div>
-            <div class="card__text">Location: {animal_location}</div>
-            <div class="card__text">Type: {animal_type}</div>
-        </li>
-        """
+            <div class="card__title"><strong>Name: {animal_name}</strong></div>
+            <div class="card__text"><strong>Diet:</strong> {animal_diet}</div>
+            <div class="card__text"><strong>Location:</strong> {animal_location}</div>
+            <div class="card__text"><strong>Type:</strong> {animal_type}</div>
+        </li>"""
     return output
 
 
